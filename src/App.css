@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Inconsolata', monospace;
+}
+.contenedor-padre {
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid 2px white;
+
+    -webkit-box-shadow: 15px 17px 36px -18px rgba(0,0,0,0.69);
+    -moz-box-shadow: 15px 17px 36px -18px rgba(0,0,0,0.69);
+    box-shadow: 15px 17px 36px -18px rgba(0,0,0,0.69);
+}
+.contenedor-general {
+}
+.img_principal {
+    width: 82%;
+}
+.contenedor-informacion {
+    padding-left: 4rem;
+}
+.titulo-name {
+    color: white;
+    font-size: 2.4rem;
+}
+.subtitulo {
+    color: white;
+    font-size: 1.4rem;
+}
+.list-item {
+    color: white
+}
+.boton-list {
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+}
+.chip {
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+.chip .MuiChip-label {
+    color: white;
+    font-size: 1rem;
+}
+.contenedor-general-center {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-general-center img {
+    width: 24%;
+    margin-top: 2rem;
+}
